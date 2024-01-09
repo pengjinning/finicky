@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		522F811425C45D0800643AF9 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F811325C45D0800643AF9 /* Application.swift */; };
-		54121CB922D8D8270020A69C /* finickyConfigAPI.js in Resources */ = {isa = PBXBuildFile; fileRef = 54121CB822D8D8270020A69C /* finickyConfigAPI.js */; };
 		5443523E229DA01B00307E21 /* statusitemerror@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5443523D229DA01B00307E21 /* statusitemerror@2x.png */; };
 		54435240229DB9E800307E21 /* statusitemerror.png in Resources */ = {isa = PBXBuildFile; fileRef = 5443523F229DB9E800307E21 /* statusitemerror.png */; };
 		544B57891B28B87900812908 /* statusitem.png in Resources */ = {isa = PBXBuildFile; fileRef = 544B57871B28B87900812908 /* statusitem.png */; };
@@ -48,7 +47,6 @@
 /* Begin PBXFileReference section */
 		522F811325C45D0800643AF9 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		52B32464249140A000A84F7F /* Finicky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Finicky.entitlements; sourceTree = "<group>"; };
-		54121CB822D8D8270020A69C /* finickyConfigAPI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = finickyConfigAPI.js; sourceTree = "<group>"; };
 		5443523D229DA01B00307E21 /* statusitemerror@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusitemerror@2x.png"; sourceTree = "<group>"; };
 		5443523F229DB9E800307E21 /* statusitemerror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusitemerror.png; sourceTree = "<group>"; };
 		544B57871B28B87900812908 /* statusitem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusitem.png; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 		54CBA90D22A5C7EA0074A67F /* js */ = {
 			isa = PBXGroup;
 			children = (
-				54121CB822D8D8270020A69C /* finickyConfigAPI.js */,
 				E3B53D6E253F957700F4CB19 /* defaultConfig.js */,
 			);
 			name = js;
@@ -246,13 +243,13 @@
 				TargetAttributes = {
 					54899CCF1B20D5BC00647101 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = C3XWNKDP3M;
+						DevelopmentTeam = L5F47963M2;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					54899CDF1B20D5BC00647101 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = C3XWNKDP3M;
+						DevelopmentTeam = L5F47963M2;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 54899CCF1B20D5BC00647101;
@@ -291,7 +288,6 @@
 				544B578A1B28B87900812908 /* statusitem@2x.png in Resources */,
 				548F11CC1B2A39F800FDDC3C /* finicky.icns in Resources */,
 				54899CD81B20D5BC00647101 /* Images.xcassets in Resources */,
-				54121CB922D8D8270020A69C /* finickyConfigAPI.js in Resources */,
 				54899CDB1B20D5BC00647101 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,13 +490,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C3XWNKDP3M;
+				DEVELOPMENT_TEAM = L5F47963M2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Finicky/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = v3.4.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.kassett.finicky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kefux.finicky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Finicky/Finicky-Bridging-Header.h";
@@ -516,13 +512,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C3XWNKDP3M;
+				DEVELOPMENT_TEAM = L5F47963M2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Finicky/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = v3.4.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.kassett.finicky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kefux.finicky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Finicky/Finicky-Bridging-Header.h";
@@ -537,7 +533,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C3XWNKDP3M;
+				DEVELOPMENT_TEAM = L5F47963M2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -549,7 +545,7 @@
 				INFOPLIST_FILE = FinickyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kassett.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kefux.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -564,7 +560,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C3XWNKDP3M;
+				DEVELOPMENT_TEAM = L5F47963M2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -572,7 +568,7 @@
 				INFOPLIST_FILE = FinickyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kassett.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kefux.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
